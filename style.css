@@ -1,0 +1,164 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    color: #3f7d9b;
+}
+
+body{
+    background-image: url("images/bg2.png");
+    background-size:500px;
+    background-repeat: repeat;
+
+}
+p{
+    color: black;
+}
+.top{
+    width: 1200px;
+    padding: 0 100vw;
+    height: 50px;
+    background-color: darkblue;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top p{
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.btn{
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content{
+    width: 1200px;
+}
+
+#top-img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+
+}
+
+#top-img .img{
+    background-image: url("images/slideshow1.jpg");
+    width: 1200px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.text-container{
+    displaY:flex;
+}
+.text-left{
+    width: 33%;
+    padding-top: 15px;
+}
+
+.text-right{
+    width: 66%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.inner-text{
+
+    width: 47%;
+    padding: 10px;
+}
+
+.read-btn{
+    border: none;
+    background-color: #3f7d9b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-container h3{
+    margin-bottom: 15px;
+}
+
+.top-heading{
+    width: 1200px;
+    text-align:right;
+    padding: 25px 0px 25px 0px;
+}
+
+.card-container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.content h2{
+    margin-bottom: 35px;
+}
+
+.card{
+    width: 20%;
+    background-color: #efefef;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.card-img{
+    margin-top: -12%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: darkgray;
+}
+
+.card-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+    width:50%;
+    height: 10%;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.card h4{
+    margin: 10px 0;
+}
+.card p{
+    margin-bottom: 5px;
+}
